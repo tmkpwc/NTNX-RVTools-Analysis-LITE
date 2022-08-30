@@ -1,0 +1,31 @@
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Hide first column of streamlit Table (index numbering) */
+table td:nth-child(1) {display: none}
+table th:nth-child(1) {display: none}
+
+.container {
+    display: flex;
+}
+.logo-text {
+    font-weight:700 !important;
+}
+/*
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+[data-testid="metric-container"] {
+    display: flex;
+    justify-content: center;
+}
+*/
+.reportview-container .main .block-container{
+    max-width: 1500px;
+}
